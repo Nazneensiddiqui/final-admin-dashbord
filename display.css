@@ -1,0 +1,102 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+  }
+
+
+  body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(233, 230, 230);
+}
+
+.nav{
+    height: 40px;
+  margin-left: 270px;
+  margin-right: 12px;
+    background-color: black;
+    color: red;
+    display: flex;
+    align-items: center;
+  font-size: 20px;
+    gap: 20px;
+   padding-left: 900px;
+  
+}
+.bar{
+    position: relative;
+    right: 850px;
+}
+
+
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(5,250px);
+    grid-template-rows: 80px auto;
+    background-color: white(233, 210, 210);
+    height: 100vh;
+    gap: 20px;
+}
+
+.item1{  
+    background-color: rgb(4, 114, 117);
+    color: white;
+    height: 100vh;
+    margin-top: -40px;
+}
+
+.item2{
+    height: 70px;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    background-color: rgb(247, 85, 21);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item1 ul li{
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: -15px;
+    font-size: 15px;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+
+button{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    background-color: rgb(42, 6, 126);
+    font-size: 15px;
+    color: white;
+}
+
+.item2 h1{
+    margin-left: 20px;
+}
+
+.item2 i{
+    
+    margin-right: 30px;
+    
+}
+/*.............display data.............*/
+#demo{
+    position: relative;
+    bottom: 550px;
+    left: 130px;
+}

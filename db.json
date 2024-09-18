@@ -1,0 +1,53 @@
+{
+  "employees": [
+    {
+      "employeeno": "101",
+      "name": "Addi jain",
+      "city": "Indore",
+      "salary": "40000",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "employeeno": 102,
+      "name": "Shumayla Khan",
+      "salary": 55000,
+      "city": "Jabalpur"
+    },
+    {
+      "id": "3",
+      "employeeno": 103,
+      "name": "Nazneen",
+      "salary": 80000,
+      "city": "Bhopal"
+    },
+    {
+      "id": "4",
+      "employeeno": 104,
+      "name": "Sharad",
+      "salary": 85000,
+      "city": "Riva"
+    },
+    {
+      "employeeno": "105",
+      "name": "Ashfaq",
+      "city": "Maharashta",
+      "salary": "85000",
+      "id": "5"
+    },
+    {
+      "employeeno": "107",
+      "name": "Addity Tawani",
+      "city": "indor",
+      "salary": "70000",
+      "id": "2a4a"
+    },
+    {
+      "employeeno": "108",
+      "name": "Ankita ",
+      "city": "Nasik ",
+      "salary": "40000",
+      "id": "8c8f"
+    }
+  ]
+}
