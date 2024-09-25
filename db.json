@@ -1,13 +1,6 @@
 {
   "employees": [
     {
-      "employeeno": "101",
-      "name": "Addi jain",
-      "city": "Indore",
-      "salary": "40000",
-      "id": "1"
-    },
-    {
       "id": "2",
       "employeeno": 102,
       "name": "Shumayla Khan",
@@ -48,6 +41,13 @@
       "city": "Nasik ",
       "salary": "40000",
       "id": "8c8f"
+    },
+    {
+      "id": "513c",
+      "employeeno": "101",
+      "name": "Nazneen",
+      "city": "FAIZABAD",
+      "salary": "55000"
     }
   ]
 }
