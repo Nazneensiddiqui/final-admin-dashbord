@@ -10,9 +10,9 @@ function display(e) {
   let storedpassword = localStorage.getItem("password");
 
   if (username === storedusername && password === storedpassword) {
-    //alert(`Login Successful , welcome ${storedusername}`);
+    alert(`Login Successful , welcome ${storedusername}`);
     window.location.href = "index.html";
   } else {
-  //  alert("Incorrect details");
+   alert("Incorrect details");
   }
 }
