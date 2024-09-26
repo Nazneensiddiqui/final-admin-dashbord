@@ -94,3 +94,60 @@ button{
     margin-right: 30px;
     
 }
+
+.item4,.item5,.item6,.item7 {
+    color: white;
+}
+
+.item4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 200px;
+    width: 200px;
+    border-radius: 35px;
+    background-image: linear-gradient(to right top, #eaff06, #f9db00, #ffb700, #ff9100, #ff6900, #ff5900, #ff4700, #ff2f00, #ff4000, #ff4d00, #ff5900, #ff6300);
+}
+
+.item5{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 200px;
+    width: 200px;
+    border-radius: 35px;
+    background-image: linear-gradient(to right top, #8cf0ff, #2ecdf8, #00a7f2, #007fe5, #0052ca, #133ab2, #1a2198, #1d007f, #23006e, #25005e, #24004f, #220041);
+}
+
+.item6{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 200px;
+    width: 200px;
+    border-radius: 35px;
+    background-image: linear-gradient(to right top, #ff8ca5, #ff7a94, #ff6781, #ff536c, #ff3b57, #ff2d62, #ff1b6e, #ff007a, #ed27a7, #c94ad0, #9066ee, #007aff);
+}
+
+.item7{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 200px;
+    width: 200px;
+    border-radius: 35px;
+    background-image: linear-gradient(to right top, #22ff00, #19d704, #10b105, #098c05, #056904, #005c1a, #004e23, #004026, #004137, #004145, #00404e, #1a3e51);
+}
+
+
+.card{
+    display: flex;
+    gap: 50px;
+    position: relative;
+    left: 300px;
+   bottom: 500px;
+}
