@@ -160,14 +160,14 @@ button{
         display: block;
         width: 100%;
     }
-    .item1 ul{ display:block;
+    .item1 ul{ display:none;
     }
 
     .item1 i{ display: block;
     }
-    .main h1{font-size: 30px;}
+    .main h1{font-size: 10px;}
     .main{height: 1500px;}
-    .item2 h1{font-size: 30px;}
+    .item2 h1{font-size: 10px;}
 
     .card{
         margin-top: 50px;
